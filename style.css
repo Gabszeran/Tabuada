@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    font: 62.5%;
+}
+body {
+    --verdeLimao: #bade4f;
+    --verde: #01b59b;
+    --azul: #4747f0;
+
+    background-color: var(--verde);
+    font-family: 'Lilita One', sans-serif;
+}
+header {
+    font-size: 2rem;
+    color: var(--verdeLimao);
+    text-shadow: 5px 5px 5px rgba(43, 42, 41, 0.758) ;
+    text-align: center;
+    padding: 40px;
+}
+
+section {
+    width: 700px;
+    height: 500px;
+    background-color: var(--azul);
+    color: var(--verdeLimao);
+    margin: auto;
+    padding: 20px;
+    font-size: 2rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(43, 42, 41, 0.495);
+}
+div#input {
+    text-align: center;
+}
+button {
+    width: 100px;
+    height: 22px;
+    border-radius: 50px;
+}
+input#numero {
+    width: 100px;
+    text-align: center;
+}
+div#resultado {
+    text-align: center;
+    margin: 100px;
+}
+footer {
+        font-size: 1.5rem;
+        color: var(--verdeLimao);
+        position: fixed;
+        bottom: 0;
+        width: 100%;       
+        text-align: center;                                                                                                                                                                                                                                                                                                               
+}
