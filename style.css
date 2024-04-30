@@ -31,6 +31,7 @@ section {
     background-color: var(--azul);
     color: var(--verdeLimao);
     margin: auto;
+    margin-bottom: 30px;
     padding: 20px;
     font-size: 2rem;
     border-radius: 20px;
@@ -51,12 +52,4 @@ input#numero {
 div#resultado {
     text-align: center;
     margin: 100px;
-}
-footer {
-        font-size: 1.5rem;
-        color: var(--verdeLimao);
-        position: fixed;
-        bottom: 0;
-        width: 100%;       
-        text-align: center;                                                                                                                                                                                                                                                                                                               
 }
